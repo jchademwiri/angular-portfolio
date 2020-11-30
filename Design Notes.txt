@@ -1,0 +1,36 @@
+COMPONENTS:
+1. header
+2. NavBar
+3. portfolio
+4. project Details
+5. Contact
+6. Footer
+
+PAGES:
+1. Home
+2. Portfolio
+3. Contact
+
+HOME:
+	1. Personal Details
+	2. Recent Projects ?
+	3. Youtube
+	4. Teaching
+
+PORTFOLIO:
+	1. Projects
+	2. Project Details:
+		JSON FILE/firebase
+		{
+			clientName:
+			projectId:
+			projectImage:
+			projectName:
+			projectDescription:
+			technologyused:
+			projectLink:
+		}
+
+CONTACT:
+	1. Contact Details
+	2. Email Form
