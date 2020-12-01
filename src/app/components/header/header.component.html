@@ -1,13 +1,40 @@
-<ul>
-  <li>
-    <a [routerLink]="['home']" routerLinkActive="active" class="nav-link"
-      >Home</a
-    >
-  </li>
-  <li>
-    <a [routerLink]="['/portfolio']" routerLinkActive="active"> Portfolio </a>
-  </li>
-  <li>
-    <a [routerLink]="['/contact']" routerLinkActive="active"> Contact </a>
-  </li>
-</ul>
+<div class="main-header">
+  <div>
+    <h1>
+      <a [routerLink]="['/']">Jacob <span>Chademwiri</span></a>
+    </h1>
+  </div>
+  <div class="personal">
+    <div>Designer</div>
+    <div>|</div>
+    <div>Developer</div>
+    <div>|</div>
+    <div>Teacher</div>
+  </div>
+  <div>
+    <ul class="nav">
+      <li>
+        <a mat-list-item [routerLink]="['#']" routerLinkActive="active">Blog</a>
+      </li>
+      <li>
+        <a mat-list-item [routerLink]="['/portfolio']" routerLinkActive="active"
+          >Portfolio</a
+        >
+      </li>
+      <li>
+        <a
+          mat-list-item
+          href="https://www.youtube.com/channel/UCgnCtM2Ih8L5xNXXpBREmEg"
+          target="_blank"
+          routerLinkActive="active"
+          >Youtube</a
+        >
+      </li>
+      <li>
+        <a mat-list-item [routerLink]="['/contact']" routerLinkActive="active"
+          >Contact</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
