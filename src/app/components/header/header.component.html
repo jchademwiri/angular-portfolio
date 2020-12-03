@@ -1,4 +1,4 @@
-<div class="main-header">
+<section id="main-header">
   <div>
     <h1>
       <a [routerLink]="['/']">Jacob <span>Chademwiri</span></a>
@@ -11,10 +11,12 @@
     <div>|</div>
     <div>Teacher</div>
   </div>
-  <div>
+  <mat-card class="nav-menu">
     <ul class="nav">
       <li>
-        <a mat-list-item [routerLink]="['#']" routerLinkActive="active">Blog</a>
+        <a mat-list-item [routerLink]="['/home']" routerLinkActive="active"
+          >Home</a
+        >
       </li>
       <li>
         <a mat-list-item [routerLink]="['/portfolio']" routerLinkActive="active"
@@ -36,5 +38,5 @@
         >
       </li>
     </ul>
-  </div>
-</div>
+  </mat-card>
+</section>
