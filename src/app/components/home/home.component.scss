@@ -3,6 +3,18 @@ h1 {
   font-weight: 500;
 }
 
+.btn {
+  padding: 0.5rem;
+  border: 1px solid green;
+  color: green;
+  border-radius: 5px;
+
+  &:hover {
+    color: #000;
+    border: 1px solid #000;
+  }
+}
+
 #personal {
   display: flex;
   justify-content: center;
@@ -71,6 +83,10 @@ h1 {
     .single-post {
       padding-left: 20px;
       margin-top: -20px;
+
+      .post-body {
+        margin-bottom: 1.5rem;
+      }
     }
     img {
       // width: 350px;
